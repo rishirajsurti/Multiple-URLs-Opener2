@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "XStack Exchange",
+  "description": "Open set of URLs in dedicated windows",
+  "version": "1.0",
+  "author": "Rishiraj Surti",
+
+  "browser_action": {
+   "default_icon": {
+        
+    }
+  },
+  "icons": { 
+       
+    },
+
+  "permissions": [
+   "tabs", "activeTab"
+    ],
+  "background": {
+    "scripts": ["jquery-2.2.4.min.js", "URI.js", "index.js" ],
+    "persistent": false
+  }
+}
